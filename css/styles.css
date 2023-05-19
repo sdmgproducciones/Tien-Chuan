@@ -1,0 +1,332 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	position: sticky;   
+    top: 0;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+  }
+  /* estilo de fuentes*/
+
+  @font-face {
+	font-family: LaOriental;
+	src: url(/elementos/Font/la_oriental/LaOriental-Bold.otf); }
+
+	@font-face {
+		font-family: Makise;
+		src: url(/elementos/Font/makise/Makise.ttf); }
+	@font-face {
+		font-family: Tokio;
+		src: url(/elementos/Font/tokyo_midnight/TokyoMidnight.otf);
+}
+	@font-face {
+		font-family: Korean;
+		src: url(/elementos/Font/korean-calligraphy/Korean\ Calligraphy.ttf);
+}
+	@font-face {
+		font-family: Osake;
+		src: url(/elementos/Font/osake/Osake.otf);
+}
+	@font-face {
+		font-family: Chinatown;
+		src: url(/elementos/Font/chinatown_champs/Chinatown\ Champs\ Italic.otf);
+		
+	}	
+
+		
+.body2{
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		min-height: 100vh;
+}
+
+.tarjeta {
+		
+		margin: 100px;
+		width: 200px;
+		height: 300px;
+		border-radius: 5px;
+		background: var(--i);
+		background-size: cover;
+		box-shadow: 3px 5px 5px rgb(90, 69, 12);
+}
+	
+
+	/* fin estilo de fuentes*/
+
+.Tprincipal{
+		color: #ffffff;
+		font-family: LaOriental;
+		}
+
+.alineamientoMenu {
+	font-family: LaOriental;
+	font-size: 15px;
+	color: red;
+}
+
+.Elkarate {
+	font-family: LaOriental
+}		
+
+.alineamientoNosotros {
+
+	color: #ffffff;
+	padding: 10px 20px;
+	font-family: LaOriental;
+	font-size: 23px;
+}
+.subtitulo2 {
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+} 
+
+
+.FuenteNosotros {
+	
+	font-family: Makise;
+	font-size: 27px;
+	font-weight: normal;
+
+}
+.p1 {
+	
+	color:yellow;
+	width: 600px;
+
+}
+
+.p2 {
+	color:yellow;
+	width: 600px;
+
+}
+
+.p3 {
+	
+	color:yellow;
+	width: 600px;
+}
+
+.p4 {
+	
+	color:yellow;
+	width: 600px;
+}
+
+.p5 {
+	
+	color:yellow;
+	width: 600px;
+	
+}
+
+  nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav li {
+	margin: 0 10px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+  }
+  
+  section {
+	padding: 0px;
+  }
+  
+  h1 {
+font-family: Osake;
+font-size: 60px
+}
+
+  h2 {
+	padding: 10px;
+	margin: 10px;
+	color: #ffffff;
+  }
+  
+  img {
+	max-width: 100%;
+  }
+  
+  footer {
+	background-color: #ccc;
+	padding: 10px;
+	text-align: center;
+  }
+  
+video {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translateX(-50%) translateY(-50%);
+
+	z-index: -1;
+}
+
+ 
+.fondoGaleria {
+	background: url(/elementos/imagenes/gbbdbvdb.jpg);
+	min-height: 100vh; 
+	
+}
+
+
+  /* ------------------------------- estilo del footer --------------------------------------------------- */
+.site-footer {
+	background-color: #26272b;
+	padding: 45px 0 20px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #737373; }
+  
+  .site-footer hr {
+	border-top-color: #bbb;
+	opacity: 0.5; }
+  
+  .site-footer hr.small {
+	margin: 20px 0; }
+  
+  .site-footer h6 {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	letter-spacing: 2px; 
+	font-family: LaOriental;
+}
+  
+  .site-footer a {
+	color: #737373; }
+  
+  .site-footer a:hover {
+	color: #3366cc;
+	text-decoration: none; }
+  
+  .footer-links {
+	padding-left: 0;
+	list-style: none; }
+  
+  .footer-links li {
+	display: block; }
+  
+  .footer-links a {
+	color: #737373; }
+  
+  .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+	color: #3366cc;
+	text-decoration: none; }
+  
+  .footer-links.inline li {
+	display: inline-block; }
+  
+  .site-footer .social-icons {
+	text-align: right; }
+  
+  .site-footer .social-icons a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px;
+	margin-right: 0;
+	border-radius: 100%;
+	background-color: #33353d; }
+  
+  .copyright-text {
+	margin: 0; }
+  
+  @media (max-width: 991px) {
+	.site-footer [class^=col-] {
+	  margin-bottom: 30px; } }
+  
+  @media (max-width: 767px) {
+	.site-footer {
+	  padding-bottom: 0; }
+	.site-footer .copyright-text, .site-footer .social-icons {
+	  text-align: auto; } }
+  
+  .social-icons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none; }
+  
+  .social-icons li {
+	display: inline-block;
+	margin-bottom: 4px; }
+  
+  .social-icons li.title {
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #96a2b2;
+	font-weight: 700;
+	font-size: 13px; }
+  
+  .social-icons a {
+	background-color: #eceeef;
+	color: #818a91;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 44px;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	margin-right: 8px;
+	border-radius: 100%;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear; }
+  
+  .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+	color: #fff;
+	background-color: #29aafe; }
+  
+  .social-icons.size-sm a {
+	line-height: 34px;
+	height: 34px;
+	width: 34px;
+	font-size: 14px; }
+  
+  .social-icons a.facebook:hover {
+	background-color: #3b5998; }
+  
+  .social-icons a.instagram:hover {
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+	 radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+	 radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+	 radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+	 radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+	 radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+	  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+	  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); }
+  
+  .social-icons a.youtube:hover {
+	background-color: #c4302b; }
+
+	/* ------------------------------- fin estilo del footer --------------------------------------------------- */
+
+	/* -------------------------------  --------------------------------------------------- */
+  
+  
