@@ -48,11 +48,12 @@ body {
 		align-items: flex-end;
 		justify-content: center;
 		min-height: 100vh;
+		
 }
 
 .tarjeta {
 		
-		margin: 100px;
+		margin: 60px;
 		width: 200px;
 		height: 300px;
 		border-radius: 5px;
